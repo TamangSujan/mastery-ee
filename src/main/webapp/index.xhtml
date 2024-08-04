@@ -12,7 +12,10 @@
 </h:head>
 <h:body>
     <h:form>
-        <h:commandButton value="Form Demo" action="pages/form-demo"/>
+        <h:commandButton value="Form Demo" action="#{indexRouteController.toFormDemo()}"/>
+    </h:form>
+    <h:form>
+        <h:commandButton value="Ajax Demo" action="#{indexRouteController.toAjaxDemo()}"/>
     </h:form>
 </h:body>
 </html>
